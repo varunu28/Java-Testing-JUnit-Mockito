@@ -2,11 +2,17 @@ package com.varun;
 
 public class Calculator {
 
-    public int add (int i, int j) {
-        return i + j;
+    CalculatorService service;
+
+    public Calculator(CalculatorService service) {
+
+        this.service = service;
+
     }
 
-    public int incorrectAdd (int i, int j) {
-        return i + j + 1;
+    public int perform (int i, int j) {       // Expected Output 2 3 => (i + j)*i
+
+        return service.add(i, j)*i;
+
     }
 }
