@@ -1,4 +1,4 @@
-# Java-Testing-JUnit-Mockito
+# Java-Testing-Tools
 Code for examples which I coded while learning Java Testing
 
 ### Index for code samples
